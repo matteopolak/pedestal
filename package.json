@@ -1,0 +1,52 @@
+{
+	"name": "my-sveltekit-app",
+	"version": "1.0.0",
+	"author": "Matthew Polak <contact@matteopolak.com>",
+	"description": "My SvelteKit app",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "eslint ."
+	},
+	"devDependencies": {
+		"@iconify-json/ic": "^1.1.17",
+		"@sveltejs/adapter-auto": "^3.1.1",
+		"@sveltejs/kit": "^2.4.1",
+		"@sveltejs/vite-plugin-svelte": "^3.0.1",
+		"@trpc/server": "^10.45.0",
+		"@types/node": "^20.11.5",
+		"@types/pg": "^8.10.9",
+		"@typescript-eslint/eslint-plugin": "^6.19.0",
+		"@typescript-eslint/parser": "^6.19.0",
+		"autoprefixer": "^10.4.17",
+		"drizzle-kit": "^0.20.13",
+		"eslint": "^8.56.0",
+		"eslint-plugin-simple-import-sort": "^10.0.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"postcss": "^8.4.33",
+		"svelte": "^4.2.9",
+		"svelte-check": "^3.6.3",
+		"tailwindcss": "^3.4.1",
+		"tslib": "^2.6.2",
+		"typescript": "^5.3.3",
+		"unplugin-icons": "^0.18.2",
+		"vite": "^5.0.12"
+	},
+	"dependencies": {
+		"@lucia-auth/adapter-postgresql": "^2.0.2",
+		"@tanstack/svelte-query": "^5.17.19",
+		"@trpc/client": "^10.45.0",
+		"dotenv": "^16.3.2",
+		"drizzle-orm": "^0.29.3",
+		"lucia": "^2.7.6",
+		"pg": "^8.11.3",
+		"trpc-openapi": "^1.2.0",
+		"trpc-sveltekit": "^3.5.22",
+		"zod": "^3.22.4"
+	}
+}
