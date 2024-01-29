@@ -49,7 +49,6 @@ export const actions = {
 				attributes: {
 					username,
 					name: result.data.name,
-					thumbnail: null,
 				},
 			});
 
